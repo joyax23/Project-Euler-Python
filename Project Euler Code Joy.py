@@ -205,3 +205,79 @@ while len(factor(n))<=500:
 
 N=[int(i) for i in str(2**1000)]
 sum(N)
+
+
+
+
+'''Problem Number 20'''   
+import math
+
+d=list(str(math.factorial(100)))
+v=0
+for i in d:
+    v=v+ int(i)
+
+
+
+
+'''Problem Number 29'''  
+P=[]
+for i in range(2,101):
+    for j in range(2,101):
+        P.append(i**j)
+len(set(P))
+
+
+
+
+'''Problem Number 56'''  
+#%timeit 
+
+D=[]
+for i in range(2,101):
+    for j in range(2,101):
+        D.append(i**j)
+
+def digit_sum(num):
+  return sum( [ int(char) for char in str(num) ] )
+
+DS=[]
+for x in D:
+    DS.append(digit_sum(x))
+
+max(DS)
+
+
+
+
+'''Problem Number 85'''  
+
+def num_sq(n,m):
+    a=n*m
+    b=
+    c=1
+    final=a+b+c
+    return final
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
